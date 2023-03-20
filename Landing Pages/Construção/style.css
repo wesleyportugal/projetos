@@ -1,0 +1,151 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Sarala:wght@400;700&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background: linear-gradient(to right, #afbfba, #c3cfcb, #d7dfdd, #ebefee);
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+}
+
+nav {
+    display: flex;
+    gap: 32px;
+}
+
+nav > a {
+    color: #f86b40; 
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+nav > a:hover {
+    background-color: #fdeeee;
+    border-radius: 10px;
+    padding: 5px;
+    transform: translate(-1px, -1px);
+    transition: transform 0.7s;
+}
+
+
+main {
+    margin-bottom: 48px;
+    border-top: 0.4px solid #fdeeee;
+}
+
+#section1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 50px;
+}
+
+#section1 > img {
+    height: 430px;
+}
+
+div {
+    display: flex;  
+    flex-direction: column;
+    gap: 32px;
+}
+
+#titulo {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700; 
+    font-size: 84px;
+    color: #f86b40;
+}
+
+#subtitulo {
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    
+}
+
+#botao {
+    background-color: #f86b40;
+    width: 180px;
+    height: 60px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+#botao:hover {
+    background-color: #fdeeee;
+    transform: translate(2px, 2px);
+    transition: transform 0.7s;
+    cursor: pointer;
+}
+
+#section2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 48px;
+}
+
+#section2 > h3 {
+    border-top: 0.4px solid #fdeeee;
+    padding-top: 48px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 5px;
+    color: #f86b40;
+}
+
+#section2 > p {
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 17px;   
+    color: black;
+}
+
+#section2 > p:hover {
+    font-size: 18px;
+    transform: translate(-1px, -1px);
+    transition: transform 1s;
+    background-color: #fdeeee;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+footer {
+    padding: 32px;
+    border-top: 0.4px solid #fdeeee;
+}
+
+footer > p {
+    text-align: center;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+}
+
+strong.destaque {
+    color: #f86b40;
+}
+
+
